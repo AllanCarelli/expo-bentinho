@@ -1,0 +1,35 @@
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio da Natureza</title>
+    <link rel="icon" type="image/x-icon" href="../assets/icon.png">
+    <link rel="stylesheet" href="../lindinho.css">
+</head>
+<body>
+    <div id="startScreen" style="display: block;">
+            <h1>Jogo do Milhão</h1>
+            <li>3 Questões</li>
+            <li>Questões aleatórias</li> 
+            <li>Nivel difícil 👿</li>
+            <input id="startQuestion" type="button" value="Começar">
+    </div>
+
+    <div id="quizScreen" style="display: none;">
+        <h id="pergunta"></h><br>
+        <input type="radio" name="resp" id="resp1">
+        <label id="resp1txt" for="resp1"></label><br>
+        <input type="radio" name="resp" id="resp2">
+        <label id="resp2txt" for="resp2"></label><br>
+        <input type="radio" name="resp" id="resp3">
+          <label id="resp3txt" for="resp3"></label><br>
+        <input type="radio" name="resp" id="resp4">
+          <label id="resp4txt" for="resp4"></label><br>
+        <input type="button" id="next" value="Proxima Pergunta">
+    </div>
+
+    <div id="endScreen" style="display: none;">
+        <h1 id="endmsg">FIM</h1>
+        <p id="resultado" style="display: block;"></p>
+    </div>
+    <script src="../scripts/script.js"></script>
+</body>

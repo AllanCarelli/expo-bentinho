@@ -1,0 +1,101 @@
+body {
+  background: linear-gradient(135deg, #5f2321, #8a1e1e, #da2b2b);
+}
+
+div{
+    width: 800px;
+    border: 5px solid rgb(0, 0, 0);
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    padding: 200px;
+    margin: auto;
+    height:400px;
+    justify-content: auto;
+    text-align: center;
+    align-content: center;
+ background: linear-gradient(135deg, #5f2321, #8a1e1e, #c22323);
+    
+    
+}
+input{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell;
+color: rgb(251, 255, 0);
+
+}
+ h1{
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell;
+color: white
+
+}
+#startQuestion,
+#next {
+
+background: linear-gradient(135deg, #4d2121, #ff0000, #ff4800);
+padding: 15px 35px;
+border-radius: 12px;
+cursor: pointer;
+border: none;
+box-shadow: 0 8px 20px rgba(235, 37, 37, 0.3);
+transition: 0.3s;
+margin-top: 30px;
+}
+
+
+#startQuestion:hover,
+#next:hover {
+    transform: translateY(-4px);
+
+    box-shadow: 0 12px 25px rgba(237, 165, 58, 0.5);
+}
+
+
+#startQuestion:active,
+#next:active {
+    transform: scale(0.5);
+}
+
+#pergunta {
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell;
+  display: block;
+
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 28px;
+  font-weight: bold;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+}
+  
+#startScreen,
+#quizScreen,
+#endScreen {
+width: 100%;
+max-width: 900px;
+min-height: 450px;
+height: 100%;
+max-height: 600px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell;
+background-color: rgba(255, 255, 255, 0.1);
+border: 1px solid rgba(255, 255, 255, 0.2);
+border-radius: 25px;
+padding: 45px;
+text-align: center;
+box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+color: white;
+}
+
+#quizScreen label {
+  display: inline-block;
+  width: 85%;
+  padding: 15px;
+  margin: 8px 0 8px 10px;
+  text-align: left;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  cursor: pointer;
+
+}
